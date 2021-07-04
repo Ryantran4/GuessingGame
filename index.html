@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+    <body>
+       <div id="app">
+        <div id="header">
+  
+          <div class="text-style">
+            <h1>THE BEST GUESSING GAME</h1>
+          </div>
+
+        <div id="body">
+  
+          <div id="input">
+            <h2>Enter Lucky Number</h2>
+  
+            <input id="player-input" type="text" maxlength="3" name="guess" >
+            <br>
+          </div>
+          <h4>Choose a number 1-100</h4>
+  
+          <div class="guess-bar">
+            <br>
+            <button type="button" id="submit">Submit</button>
+          </div>
+  
+          <div class="guesses">
+            <div class="text-style">
+              <h3>PREVIOUS GUESSES</h3>
+            </div>
+              <ul id="guess-list">
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+              </ul>
+  
+          </div>
+          <div class = "stripe">
+            <span id = "message"></span>
+          </div>
+          <script src = './js/guessingGame.js'></script> 
+
+  </body>
+</html>
